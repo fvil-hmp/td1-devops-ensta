@@ -53,4 +53,5 @@ def main():
     st.sidebar.info("Dashboard v1.0.0")
 
 if __name__ == "__main__":
+    print("1")
     main()
