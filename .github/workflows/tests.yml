@@ -1,0 +1,24 @@
+name: Tests
+
+on:
+  push:
+    branches: [main, dev, test]
+  pull_request:
+    branches: [main]
+  path: [app.py, requirements.txt, tests/]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      # TODO: Ajoutez les étapes manquantes
+      # - Setup Python 3.11
+      # - Installez les dépendances (requirements.txt + pytest)
+
+      # exemple : comment run pytest
+      - name: Run tests
+        run: pytest -v
