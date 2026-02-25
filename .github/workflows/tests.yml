@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.11' 
-      - run: python pip install -r requirements.txt
+      - run: pip install -r requirements.txt
 
       # exemple : comment run pytest
       - name: Run tests
