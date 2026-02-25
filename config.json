@@ -2,7 +2,7 @@
   "app_name": "Enstartup Analytics",
   "version": "1.0.0",
   "debug": false,
-  "theme": "light",
+  "theme": "dark",
   "features": {
     "search": true,
     "export": false
